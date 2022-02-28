@@ -12,11 +12,25 @@ code {
     monospace;
 }
 
+.location-page{
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  padding: 20px 20px;
+}
+
+.location-page h1{
+  text-align: center;
+}
+
+.location-button{
+
+}
 .myWrapper{
   display: flex;
 }
 .leaflet-container {
-  flex: 2;
   height: 1000px;
-  width: 800px;
+  width: 70%;
 }
